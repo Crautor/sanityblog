@@ -23,5 +23,11 @@ export default {
       type: 'image',
       title: 'Imagem da noticia',
     },
+    {
+      name: 'createdAt',
+      title: 'Data da Noticia',
+      type: 'datetime',
+      initialValue: new Date().toISOString(),
+    },
   ],
 }
